@@ -1,0 +1,13 @@
+{
+  "name": "package.json",
+  "devDependencies": {
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage": "*",
+    "karma-firefox-launcher": "*",
+    "karma-jasmine": "*",
+    "karma-junit-reporter": "*",
+    "karma-opera-launcher": "^0.3.0",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}

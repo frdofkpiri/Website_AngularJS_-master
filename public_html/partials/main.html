@@ -1,0 +1,40 @@
+
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section ng-controller="SiteCtrl" id="services" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <h2> Notre principe et concept</h2>
+            <hr class="small">
+            <div class="col-lg-10 col-lg-offset-1">
+
+
+                <div class="row" >
+                    <div class="col-md-3 col-sm-6" ng-repeat="principles in principleList">
+                        <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                   <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-{{principles.classValue}} fa-stack-1x text-primary"></i>
+                                </span>
+
+                            <div>
+                                    <h4>
+                                        <strong>{{principles.title}}</strong>
+                                    </h4>
+
+                                    <p>{{principles.introText}}</p>
+                                    <a href="#!principles/{{principles._id}}" class="btn btn-light">Learn More</a>
+                            </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+</div>
+
+    </div>
+</section>

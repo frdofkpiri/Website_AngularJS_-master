@@ -1,0 +1,50 @@
+
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary" ng-controller="SiteViewCtrl">
+    <div class="container">
+        <div class="row text-center" >
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2> Notre principe et concept</h2>
+                <hr class="small">
+                <div class="row text-left">
+
+                    <h3 class="text-center">
+                        <strong>{{principleEntry.title}}</strong>
+                    </h3>
+
+                    <div class="col-md-7 col-sm-6">
+                        <div class="services">
+
+
+                        <div class="clearfix">
+
+                            <p>{{principleEntry.content}}</p>
+                        </div>
+
+
+                            <!-- /.service-item -->
+                        </div>
+                        <!-- /.col-md-7 col-sm-6 (nested) -->
+
+                    </div>
+
+                    <div class="row text-right">
+
+                        <div class="col-md-5 col-sm-5 services" >
+                            <img src="img/principles/{{principleEntry.image_name}}.jpg" class="img-responsive" alt="">
+
+                        </div>
+
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.section -->
+</section>
+
